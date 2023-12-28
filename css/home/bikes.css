@@ -2,6 +2,7 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+    margin-left: 2rem;
 }
 
 .pick-one{
@@ -11,7 +12,7 @@
 
 }
 .bike-container div img{
-    width: 35rem;
+    width: 90%;
     border-radius: 4px;
 }
 
@@ -33,4 +34,16 @@
     position: relative;
     left: -0.5rem;
     top: -0.5rem;
+}
+
+@media (max-width: 800px){
+    .bike-container{
+        overflow-x: auto;
+    }
+    .pick-one{
+        font-size: 2rem;
+    }
+    .pick-one span{
+        display: none;
+    }
 }
