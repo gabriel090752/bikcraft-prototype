@@ -1,0 +1,30 @@
+.technology-container{
+    background-color: var(--c11);
+}
+.advantages{
+    display: inline-flex;
+    position: relative;
+    top: -15rem;
+}
+.technology-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: inset 0 100px white,inset 0 -100px white;
+    margin-top: 120px;
+    height: 60rem;
+    width: auto;
+}
+
+.technology-container div{
+    margin-left: 2rem;
+    margin-top: 160px;
+}
+
+.tools{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+
+}

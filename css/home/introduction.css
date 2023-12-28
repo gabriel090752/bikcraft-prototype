@@ -65,7 +65,7 @@
     color: var(--c7);
     margin-bottom: 2rem;
 }
-.text-part a{
+.button{
     padding: 1.3rem;
     border-radius: 4px;
     color: var(--c12);
