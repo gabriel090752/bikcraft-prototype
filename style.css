@@ -1,7 +1,7 @@
 @import url(css/home/introduction.css);
 @import url(css/home/bikes.css);
 @import url(css/home/tecnologias.css);
-
+@import url(css/home/parceiros.css);
 html{
     font-family: Poppins,"Roboto Light",sans-serif;
 }
