@@ -1,0 +1,57 @@
+.testimony-container{
+    background-color: var(--p1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+.testimony-pic{
+    height: 100%;
+    object-fit: cover;
+}
+.testimony{
+    grid-column: 2;
+    position: relative;
+    top: 20rem;
+    margin: 0 6.4rem;
+}
+.testimony blockquote{
+    font-family: Merriweather, serif;
+    font-style: italic;
+    padding: 40px 40px 80px 80px;
+
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.testimony blockquote::before{
+    content: '“';
+    color: var(--p2);
+    font-size: 5rem;
+    position: absolute;
+    left: 1rem;
+    top: 17px;
+}
+.testimony blockquote::after{
+    content: '”';
+    color: var(--p2);
+    font-size: 5rem;
+    position: absolute;
+}
+img[alt=top-left-p]{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+img[alt=bottom-left-p]{
+    position: relative;
+    left: 55rem;
+    bottom: -19rem;
+}
+
+@media (max-width: 800px){
+    .testimony-container{
+        height: 70rem;
+    }
+    img[alt=bottom-left-p]{
+        display: none;
+    }
+}

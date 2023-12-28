@@ -2,6 +2,7 @@
 @import url(css/home/bikes.css);
 @import url(css/home/tecnologias.css);
 @import url(css/home/parceiros.css);
+@import url(css/home/depoimento.css);
 html{
     font-family: Poppins,"Roboto Light",sans-serif;
 }
