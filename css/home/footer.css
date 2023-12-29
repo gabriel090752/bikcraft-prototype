@@ -1,0 +1,33 @@
+footer{
+    background-color: var(--c12);
+    color: var(--c5);
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.contact{
+    margin-top: 2rem;
+}
+.logo-b{
+    margin: 2rem    ;
+}
+.social-media{
+    display: flex;
+    gap: 2rem;
+}
+.phone-address-city :nth-child(3){
+    border-top: solid 2px var(--c10);
+
+}
+.phone-address-city :nth-child(5){
+    border-top: solid 2px var(--c10);
+
+}
+
+.info{
+    grid-column: 3;
+    justify-self: end;
+    margin: 2rem;
+}

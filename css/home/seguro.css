@@ -9,6 +9,7 @@
     justify-content: end;
     margin-top: 12rem;
     border-radius: 4px;
+    margin-bottom: 4rem;
 
 }
 .insurance-container{
@@ -27,10 +28,9 @@
 .gold ul li{
     font-size: 1.6rem;
 }
-.gold{
+.gold {
     height: 30rem;
     width: 35rem;
-
 }
 .prata{
     font-weight: bold;
@@ -72,7 +72,6 @@
     height: 9px;
     background-image: url("../../img/icones/lista.svg");
     position: absolute;
-
 }
 
 @media (max-width: 800px){

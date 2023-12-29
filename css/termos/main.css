@@ -1,0 +1,14 @@
+.title{
+    background-color: var(--c11);
+    padding: 2rem;
+}
+.title h1{
+    margin-left: 10rem;
+}
+.title h2{
+    margin-left: 10rem;
+}
+
+.terms{
+    margin: 5rem 10rem;
+}
