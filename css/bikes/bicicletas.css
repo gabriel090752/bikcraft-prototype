@@ -1,0 +1,98 @@
+main {
+    background-color: var(--c11);
+    padding: 2rem;
+}
+main h1,main h2{
+    margin-left: 10rem;
+}
+
+.nimbus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 8rem 0 4rem 13.75rem;
+    gap: 2rem;
+}
+.magic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4rem;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+    color: var(--c5);
+}
+.nimbus h3{
+    font-weight: bold;
+}
+.magic h3{
+    font-weight: bold;
+    color: var(--c0);
+}
+.nebula h3{
+    font-weight: bold;
+}
+.magic-img{
+    position: relative;
+    z-index: 1;
+}
+.advantage-images img{
+    position: relative;
+    bottom: 4px;
+    left: -5px;
+    margin-bottom: 0.5rem;
+    z-index: 1;
+}
+.magic-title{
+    position: relative;
+    z-index: 1;
+}
+.magic-text{
+    position: relative;
+    z-index: 1;
+}
+.advantage-text{
+    position: relative;
+    z-index: 1;
+}
+.advantage-list{
+    display: flex;
+}
+.buttons{
+    grid-column: 3;
+    align-self: end;
+    background-color: var(--p1);
+    color: var(--c12);
+    border-radius: 4px;
+    padding: 1rem;
+    width: 15rem;
+    font-weight: bold;
+    position: relative;
+    left: -10rem;
+    text-align: center;
+}
+.buttons img{
+    display: inline-block;
+}
+
+.top-right-1{
+    grid-column: 3;
+    position: relative;
+    top: -20rem;
+    right: -3rem;
+}
+
+.black-square{
+    background-color: var(--c11);
+    width: 91rem;
+    height: 30rem;
+    position: absolute;
+    top: -6rem;
+    left: 15rem;
+    border-radius: 4px;
+}
+
+
+.nebula{
+    margin-top: 2rem;
+}
+
