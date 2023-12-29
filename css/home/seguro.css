@@ -24,9 +24,11 @@
 }
 .silver ul li{
     font-size: 1.7rem;
+    position: relative;
 }
 .gold ul li{
     font-size: 1.6rem;
+    position: relative;
 }
 .gold {
     height: 30rem;
@@ -64,12 +66,7 @@
 .left-s a{
     grid-row: 4;
 }
-.silver ul li{
-    position: relative;
-}
-.gold ul li{
-    position: relative;
-}
+
 .left-s ul li::before{
     content: "";
     display: inline-block;
