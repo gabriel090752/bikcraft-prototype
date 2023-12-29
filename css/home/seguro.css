@@ -1,0 +1,86 @@
+.insurance-title{
+    margin: 4rem;
+}
+.silver,.gold{
+    background-color: var(--c12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr min-content ;
+    justify-content: end;
+    margin-top: 12rem;
+    border-radius: 4px;
+
+}
+.insurance-container{
+    display: flex;
+    gap: 2.5rem;
+    background-color: var(--c11);
+}
+.silver{
+    height: 24.75rem;
+    width: 35rem;
+    align-self: center;
+}
+.silver ul li{
+    font-size: 1.7rem;
+}
+.gold ul li{
+    font-size: 1.6rem;
+}
+.gold{
+    height: 30rem;
+    width: 35rem;
+
+}
+.prata{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.ouro{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1rem
+}
+.left-s{
+    margin-left: 2rem;
+}
+.right-s{
+    justify-self: end;
+
+}
+.valor{
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.mensal{
+    margin-top: 0;
+    font-size: 1rem;
+    margin-right: 0;
+    margin-left: 3rem;
+}
+.left-s a{
+    grid-row: 4;
+}
+
+.left-s ul li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+
+}
+
+@media (max-width: 800px){
+    .insurance-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gold{
+        margin: 0 auto
+    }
+}
