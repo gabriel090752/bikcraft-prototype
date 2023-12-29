@@ -96,3 +96,54 @@ main h1,main h2{
     margin-top: 2rem;
 }
 
+
+.title1:after{
+    content:"R$ 4999";
+    background-color: #111111;
+    color: var(--c5);
+    font-size: 1rem;
+    border-radius: 4px;
+    position: relative;
+    left: -18rem;
+}
+.title2:after{
+    content: "R$ 2499";
+    background-color: #111111;
+    color: var(--c5);
+    font-size: 1rem;
+    border-radius: 4px;
+    position: relative;
+    left: -16.5rem;
+}
+.title3:after{
+    content: "R$ 2499";
+    background-color: #111111;
+    color: var(--c5);
+    font-size: 1rem;
+    border-radius: 4px;
+    position: relative;
+    left: -19rem;
+}
+
+@media (max-width: 800px){
+    .black-square{
+        display: none;
+    }
+    .magic{
+        color: #111111;
+    }
+    .nimbus{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nimbus a{
+        justify-self: center;
+    }
+    .advantage-images{
+        position: relative;
+        left: -30px;
+    }
+    .top-right-1{display: none}
+
+}
