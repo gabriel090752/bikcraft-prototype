@@ -28,6 +28,16 @@ footer{
 
 .info{
     grid-column: 3;
-    justify-self: end;
+    justify-self: center;
     margin: 2rem;
+}
+
+@media (max-width: 800px){
+    .info{
+        display: none;
+    }
+    .contact{
+        position: relative;
+        right: -4rem;
+    }
 }

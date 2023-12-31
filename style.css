@@ -7,6 +7,9 @@
 @import url(css/home/footer.css);
 @import url(css/termos/main.css);
 @import url(css/bikes/bicicletas.css);
+@import url(css/desc-bike/desc-bikes.css);
+
+
 
 html{
     font-family: Poppins,"Roboto Light",sans-serif;

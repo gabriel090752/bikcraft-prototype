@@ -1,8 +1,9 @@
-main {
+.titles{
     background-color: var(--c11);
     padding: 2rem;
+
 }
-main h1,main h2{
+.title01,.title02{
     margin-left: 10rem;
 }
 
@@ -21,14 +22,14 @@ main h1,main h2{
     z-index: 1;
     color: var(--c5);
 }
-.nimbus h3{
+.title1{
     font-weight: bold;
 }
-.magic h3{
+.title2{
     font-weight: bold;
     color: var(--c0);
 }
-.nebula h3{
+.title3{
     font-weight: bold;
 }
 .magic-img{
@@ -56,6 +57,7 @@ main h1,main h2{
 }
 .advantage-list{
     display: flex;
+    margin-top: 3rem;
 }
 .buttons{
     grid-column: 3;
@@ -86,7 +88,7 @@ main h1,main h2{
     width: 91rem;
     height: 30rem;
     position: absolute;
-    top: -6rem;
+    top: -4.5rem;
     left: 15rem;
     border-radius: 4px;
 }
@@ -129,21 +131,29 @@ main h1,main h2{
     .black-square{
         display: none;
     }
-    .magic{
+    .magic,.magic-title{
         color: #111111;
     }
     .nimbus{
         display: flex;
         flex-direction: column;
-
+        position: relative;
+        left: -7rem;
     }
     .nimbus a{
-        justify-self: center;
+        position: absolute;
+        top: 36rem;
+        left: -2.5rem;
     }
     .advantage-images{
         position: relative;
         left: -30px;
     }
     .top-right-1{display: none}
+    .titles h1,.titles h2{
+        position: relative;
+        left: -10rem;
+    }
 
-}
+
+    }
