@@ -73,8 +73,10 @@
 }
 
 .specs-container{
+    /*margin-left: 54rem;*/
+    /*margin-right: 22rem;*/
+    width: 44rem;
     margin-left: 54rem;
-    margin-right: 22rem;
 }
 .specs{
     margin-left: 54rem;
@@ -130,5 +132,49 @@
 }
 
 @media (max-width: 800px){
-
-}
+    .smaller-image1,.smaller-image2{
+        display: none;
+    }
+    .containers-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #111111;
+        /*margin-right: 10rem;*/
+    }
+    .description-and-details p{
+        display: none;
+    }
+   .information-container{
+       display: none;
+   }
+    .description-and-details a{
+        position: relative;
+        left: -32rem;
+        top: 15rem;
+    /*    width: 25rem;*/
+    }
+    .specs,.specs-container{
+        position: relative;
+        width: 15rem;
+        left: -49rem;
+    }
+    .information-container{
+        position: relative;
+        left: -38rem;
+        width: 25rem;
+    }
+    .bigger-image{
+        position: relative;
+        left: -10rem;
+    }
+    .price-and-name{
+        position: relative;
+        left: 6rem;
+    }
+    .insurance-img{
+        display: none;
+    }
+    .text-insurance p{
+        margin-left: 2rem;
+    }
+    }
